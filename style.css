@@ -1,0 +1,59 @@
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background-color: lightgray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+main {
+    background-color: azure;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+main .row {
+    margin-bottom: 15px;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: skyblue;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .btn {
+    color: lightsteelblue;
+    background-color: black;
+}
+
+#gallery ul {
+    display: block;
+    list-style-type: none;
+}
+
+#gallery li {
+    width: 100px;
+    padding: 6px;
+}
