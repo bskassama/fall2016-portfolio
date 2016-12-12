@@ -10,8 +10,9 @@ body {
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
     background-color: #9EFEFE;
-    margin-left: 15px;
-    margin-right: auto;
+    background-image: linear-gradient(to bottom, #9EFEFE, #A9C3FE);
+    margin: 0;
+    padding: 0;
 }
 
 footer {
@@ -21,6 +22,7 @@ footer {
     width: 100%;
     background-color: black;
     text-align: center;
+    background-size: 100% 100%;
     padding: 15px;
     color: white;
     padding-left: 0px;
